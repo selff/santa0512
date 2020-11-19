@@ -36,7 +36,7 @@ if (isset($_POST["connections"]) and !((1 <= $_POST["connections"]) and ($_POST[
 }
 
 
-echo ">";
+echo "<form method='POST'>";
 
 if (isset($_POST["yes"])) {
 
